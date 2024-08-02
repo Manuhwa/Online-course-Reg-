@@ -1,5 +1,5 @@
 <?php 
-session start();
+
 error_reporting (0);
 include("includes/confi.php");
 if(isset($_POST['commit']))
@@ -17,6 +17,6 @@ if($num>0)
     $_SESSION['pin']=$_POST['studentRegNo'];
     $uip=$_SERVER['Remote_Addr'];
     $status=1;
-    $log=mysqli_query($con,"insert into")
-}
-}
+    $log=mysqli_query($con,"insert into");
+
+}}
